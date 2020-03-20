@@ -1,5 +1,5 @@
 ## Startpage
-![Startpage.](https://github.com/xjxckk/stpg/blob/master/stpg.jpg)
+![Startpage.](https://github.com/xjxckk/stpg/blob/master/startpage.jpg)
 ### How to use:
 * [Download](https://github.com/xjxckk/stpg/archive/master.zip).
 * Change links.
