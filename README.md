@@ -1,4 +1,4 @@
-## Startpage
+## Startpage with Standard Notes embed
 ![Startpage.](https://github.com/xjxckk/stpg/blob/master/stpg.jpg)
 ### How to use:
 * [Download](https://github.com/xjxckk/stpg/archive/master.zip).
