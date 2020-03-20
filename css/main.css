@@ -1,0 +1,164 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.Notes {
+	opacity: 0.5;
+	box-sizing: border-box;
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 14.75%;
+    margin: 0 1px;
+    padding: 10px;
+	background-image: url("../images/bg-white.jpg");
+    background-size: auto;
+	box-shadow: 0 1px 2px rgba(0,0,0, 0.15),
+				0 2px 3px rgba(0,0,0, 0.3);
+	border-radius: 2px;
+	transition: box-shadow 0.25s ease-in-out;
+}
+
+#Note {
+	height: 110px;
+    width: 99.1%;
+	background-image: url("../images/bg-white.jpg");
+    background-size: auto;
+	resize: vertical;
+}
+
+#NotesFrame {
+	padding: 0px;
+	position: relative;
+	margin-top: -102px;
+	margin-left: -27px;
+	width: 274px;
+	height: 1000px;
+	border-style: none;
+}
+
+.Note {
+	margin-top: 0px;
+	margin-left: 4px;
+	background-image: url("../images/bg-white.jpg");
+    background-size: auto;
+	text-align: left;
+}
+
+.block-content {
+	background-image: url("../images/bg-white.jpg");
+    background-size: auto;
+    box-shadow: 0 1px 2px rgba(0,0,0, 0.15),
+                0 2px 3px rgba(0,0,0, 0.3);
+    border-radius: 2px;
+    transition: box-shadow 0.25s ease-in-out;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    margin: 0 auto 6px;
+    padding: 10px;
+}
+
+/* Blocks */
+
+.block-content ul {
+    flex: 1 1 auto;
+    list-style: none;
+    margin: 5px 10px;
+    padding: 0;
+}
+
+.block-wrapper {
+    display: flex;
+    margin: 0 auto 5px;
+    width: 60%;
+}
+
+.block {
+	background-image: url("../images/bg-white.jpg");
+    background-position: left bottom;
+    background-size: auto;
+    box-shadow: 0 1px 2px rgba(0,0,0, 0.15),
+                0 2px 3px rgba(0,0,0, 0.3);
+    border-radius: 2px;
+    transition: box-shadow 0.25s ease-in-out;
+    flex: 1 1 auto;
+    margin-right: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.block:last-of-type,
+a:last-of-type {
+    margin-right: 0;
+}
+
+.block.half-size {
+    flex-basis: 50%;
+}
+
+a {                     /* What was this thing supposed to do? */
+    flex: 1 1 auto;
+    margin-right: 5px;
+}
+
+.block-content,
+.block {
+	opacity: 0.5;
+    background-image: url("../images/bg-white.jpg");
+    background-position: left bottom;
+    background-size: auto;
+    box-shadow: 0 1px 2px rgba(0,0,0, 0.15),
+                0 2px 3px rgba(0,0,0, 0.3);
+    border-radius: 2px;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.block-content:hover,
+.block:hover {
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.15),
+                0 4px 6px rgba(0,0,0, 0.28);
+    z-index: 1;
+}
+
+.block-content ul li:first-child {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Form */
+
+input {
+    background-image: url("../images/bg-white.jpg");
+    background-position: left bottom;
+    background-size: auto;
+    padding-right: 16px;
+    color: #333333;
+}
+
+.clear-flex {
+    display: block;
+    width: 100%;
+}
+
+#searchbox {
+	border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+	background-image: url("../images/bg-white.jpg");
+    background-position: left bottom;
+    background-size: auto;
+	font-family: 'Roboto Condensed';
+	font-size: 13pt;
+}
